@@ -8,8 +8,8 @@ proxies:
   - {name: 🇯🇵 日本东京A, server: cn.hncu.986888.xyz, port: 57693, type: ss, cipher: aes-256-gcm, password: QEbaUrwZ/1qjNs53KpaOGg==, udp: true}
   - {name: 🇯🇵 AZ日本, server: cn.cmcmyd.986888.xyz, port: 35007, type: ss, cipher: aes-256-gcm, password: QEbaUrwZ/1qjNs53KpaOGg==, udp: true}
   - {name: 🇯🇵 日本东京B, server: cn.shcua.986888.xyz, port: 47647, type: ss, cipher: aes-256-gcm, password: QEbaUrwZ/1qjNs53KpaOGg==, udp: true}
-  - {name: 🇭🇰 香港01-解锁奈飞, server: 120-241-236-219.nhost.00cdn.com, port: 43715, type: ss, cipher: aes-256-gcm, password: QIAyYeLBrb65r771vMoX2g==, udp: true}
-  - {name: 🇭🇰 香港01, server: 120-241-236-219.nhost.00cdn.com, port: 30219, type: ss, cipher: aes-256-gcm, password: QEbaUrwZ/1qjNs53KpaOGg==, udp: true}
+  - {name: 🇭🇰 香港01-解锁奈飞, server: cn.cmcmyd.986888.xyz, port: 43715, type: ss, cipher: aes-256-gcm, password: QIAyYeLBrb65r771vMoX2g==, udp: true}
+  - {name: 🇭🇰 香港01, server: cn.cmcmyd.986888.xyz, port: 30219, type: ss, cipher: aes-256-gcm, password: QEbaUrwZ/1qjNs53KpaOGg==, udp: true}
   - {name: 🇭🇰 香港02-解锁奈飞, server: cn.shcua.986888.xyz, port: 17708, type: ss, cipher: aes-256-gcm, password: QIAyYeLBrb65r771vMoX2g==, udp: true}
   - {name: 🇭🇰 香港02, server: cn.shcua.986888.xyz, port: 45575, type: ss, cipher: aes-256-gcm, password: QEbaUrwZ/1qjNs53KpaOGg==, udp: true}
   - {name: 🇭🇰 Tencent-HK01, server: cloud.eebond.xyz, port: 443, type: vmess, uuid: 2e82cf13-4e82-4935-9ec7-23d0e0eb56b3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: cloud.eebond.xyz, network: ws, ws-opts: {path: /upload, headers: {Host: cloud.eebond.xyz}}, udp: true}
