@@ -6,12 +6,13 @@ log-level: info
 external-controller: :9090
 proxies:
   - {name: 🇯🇵 日本东京A, server: cn.hncu.986888.xyz, port: 57693, type: ss, cipher: aes-256-gcm, password: QEbaUrwZ/1qjNs53KpaOGg==, udp: true}
-  - {name: 🇯🇵 AZ日本, server: cn.cmcmyd.986888.xyz, port: 35007, type: ss, cipher: aes-256-gcm, password: QEbaUrwZ/1qjNs53KpaOGg==, udp: true}
+  - {name: 🇯🇵 AZ日本, server: cn.hncu.986888.xyz, port: 35007, type: ss, cipher: aes-256-gcm, password: QEbaUrwZ/1qjNs53KpaOGg==, udp: true}
   - {name: 🇯🇵 日本东京B, server: cn.shcua.986888.xyz, port: 47647, type: ss, cipher: aes-256-gcm, password: QEbaUrwZ/1qjNs53KpaOGg==, udp: true}
-  - {name: 🇭🇰 香港01-解锁奈飞, server: cn.cmcmyd.986888.xyz, port: 43715, type: ss, cipher: aes-256-gcm, password: QIAyYeLBrb65r771vMoX2g==, udp: true}
-  - {name: 🇭🇰 香港01, server: cn.cmcmyd.986888.xyz, port: 30219, type: ss, cipher: aes-256-gcm, password: QEbaUrwZ/1qjNs53KpaOGg==, udp: true}
+  - {name: 🇭🇰 香港01-解锁奈飞, server: fsct.1aba.cn, port: 43715, type: ss, cipher: aes-256-gcm, password: QIAyYeLBrb65r771vMoX2g==, udp: true}
+  - {name: 🇭🇰 香港01, server: fsct.1aba.cn, port: 30219, type: ss, cipher: aes-256-gcm, password: QEbaUrwZ/1qjNs53KpaOGg==, udp: true}
   - {name: 🇭🇰 香港02-解锁奈飞, server: cn.shcua.986888.xyz, port: 17708, type: ss, cipher: aes-256-gcm, password: QIAyYeLBrb65r771vMoX2g==, udp: true}
   - {name: 🇭🇰 香港02, server: cn.shcua.986888.xyz, port: 45575, type: ss, cipher: aes-256-gcm, password: QEbaUrwZ/1qjNs53KpaOGg==, udp: true}
+  - {name: 🇭🇰 HKBN-Tencent, server: gy.bzcv.cn, port: 51242, type: ss, cipher: aes-256-gcm, password: QEbaUrwZ/1qjNs53KpaOGg==, udp: true}
   - {name: 🇭🇰 Tencent-HK01, server: cloud.eebond.xyz, port: 443, type: vmess, uuid: 2e82cf13-4e82-4935-9ec7-23d0e0eb56b3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: cloud.eebond.xyz, network: ws, ws-opts: {path: /upload, headers: {Host: cloud.eebond.xyz}}, udp: true}
   - {name: 🇭🇰 Tencent-HK02, server: yunpan.eebond.xyz, port: 447, type: trojan, password: 5f45307f-a867-05de-3913-ff539f92325f, sni: yunpan.eebond.xyz, skip-cert-verify: false, udp: true}
   - {name: 🇺🇸 直连US-trogan-go, server: trojan.eebond.xyz, port: 447, type: trojan, password: 5f45307f-a867-05de-3913-ff539f92325f, sni: trojan.eebond.xyz, skip-cert-verify: false, udp: true}
@@ -28,6 +29,7 @@ proxy-groups:
       - 🇭🇰 香港01
       - 🇭🇰 香港02-解锁奈飞
       - 🇭🇰 香港02
+      - 🇭🇰 HKBN-Tencent
       - 🇭🇰 Tencent-HK01
       - 🇭🇰 Tencent-HK02
       - 🇺🇸 直连US-trogan-go
@@ -44,6 +46,7 @@ proxy-groups:
       - 🇭🇰 香港01
       - 🇭🇰 香港02-解锁奈飞
       - 🇭🇰 香港02
+      - 🇭🇰 HKBN-Tencent
       - 🇭🇰 Tencent-HK01
       - 🇭🇰 Tencent-HK02
       - 🇺🇸 直连US-trogan-go
@@ -56,6 +59,7 @@ proxy-groups:
       - 🇯🇵 日本东京B
       - 🇭🇰 香港01
       - 🇭🇰 香港02
+      - 🇭🇰 HKBN-Tencent
       - 🇭🇰 Tencent-HK01
       - 🇭🇰 Tencent-HK02
       - 🇺🇸 直连US-trogan-go
@@ -63,7 +67,6 @@ proxy-groups:
     type: select
     proxies:
       - 🚀 节点选择
-      
       - 🇯🇵 AZ日本
       - 🇭🇰 香港01-解锁奈飞
       - 🇭🇰 香港02-解锁奈飞
@@ -74,6 +77,7 @@ proxy-groups:
       - 🇯🇵 AZ日本
       - 🇭🇰 香港01-解锁奈飞
       - 🇭🇰 香港02-解锁奈飞
+      - 🇭🇰 HKBN-Tencent
       - 🇭🇰 Tencent-HK01
       - 🇭🇰 Tencent-HK02
   - name: 📲 电报消息
@@ -86,6 +90,7 @@ proxy-groups:
       - 🇯🇵 日本东京B
       - 🇭🇰 香港01
       - 🇭🇰 香港02
+      - 🇭🇰 HKBN-Tencent
       - 🇭🇰 Tencent-HK01
       - 🇭🇰 Tencent-HK02
       - 🇺🇸 直连US-trogan-go
@@ -99,6 +104,7 @@ proxy-groups:
       - 🇯🇵 日本东京B
       - 🇭🇰 香港01
       - 🇭🇰 香港02
+      - 🇭🇰 HKBN-Tencent
       - 🇭🇰 Tencent-HK01
       - 🇭🇰 Tencent-HK02
       - 🇺🇸 直连US-trogan-go
